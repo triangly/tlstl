@@ -66,6 +66,12 @@
 	#define _TL_CONSTEXPR14
 #endif
 
+#if _TL_HAS_CPP23
+	#define _TL_CONSTEXPR23 constexpr
+#else
+	#define _TL_CONSTEXPR23
+#endif
+
 // You can modify this on your own projects to change the namespace of the library.
 // By default, "stl" is used.
 #ifndef _TL_NAMESPACE_NAME

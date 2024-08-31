@@ -85,6 +85,6 @@
 #include <tlstl/__type_traits/underlying_type.h>
 #include <tlstl/__type_traits/void_t.h>
 
-//Missing traits as of now: unwrap_reference, unwrap_ref_decay, result_of, invoke_result, common_type, common_reference, basic_common_reference
+//Missing traits as of now: unwrap_reference, unwrap_ref_decay, result_of, invoke_result, common_type, common_reference, basic_common_reference, is_invocable
 
 #endif // __TLSTL_TYPE_TRAITS_H__
